@@ -35,7 +35,7 @@ class _ContentClassRoomState extends State<ContentClassRoom> {
           Padding(
             padding: EdgeInsets.only(right: 20.0, left: 8),
             child: CircleAvatar(
-              backgroundImage: AssetImage("assets/images/profile.png"),
+              backgroundImage: AssetImage("assets/images/perfil-ia.jpeg"),
               backgroundColor: Colors.white,
               maxRadius: 16,
             ),

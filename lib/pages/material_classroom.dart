@@ -27,7 +27,7 @@ class _ClassMaterialState extends State<ClassMaterial> {
             padding: EdgeInsets.only(right: 20.0, left: 8),
             child: CircleAvatar(
               maxRadius: 16,
-              backgroundImage: AssetImage("assets/images/profile.png"),
+              backgroundImage: AssetImage("assets/images/perfil-ia.jpeg"),
               backgroundColor: Colors.white,
             ),
           ),

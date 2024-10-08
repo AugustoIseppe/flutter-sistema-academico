@@ -32,13 +32,13 @@ class _FrequencyPageState extends State<FrequencyPage> {
         elevation: 5,
         actions: const [
           Padding(
-              padding: EdgeInsets.only(right: 20.0, left: 8),
-              child: CircleAvatar(
-                    backgroundImage: AssetImage("assets/images/profile.png"),
-                    backgroundColor: Colors.white,
-                    maxRadius: 16,
-                  ),
+            padding: EdgeInsets.only(right: 20.0, left: 8),
+            child: CircleAvatar(
+              backgroundImage: AssetImage("assets/images/perfil-ia.jpeg"),
+              backgroundColor: Colors.white,
+              maxRadius: 16,
             ),
+          ),
         ],
       ),
       body: SingleChildScrollView(
@@ -55,7 +55,11 @@ class _FrequencyPageState extends State<FrequencyPage> {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       ListTile(
-                        title: Text(itemTitles[index], style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 18),),
+                        title: Text(
+                          itemTitles[index],
+                          style: const TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 18),
+                        ),
                         trailing: IconButton(
                             onPressed: () {
                               setState(() {
@@ -89,12 +93,19 @@ class _FrequencyPageState extends State<FrequencyPage> {
                                       mainAxisAlignment:
                                           MainAxisAlignment.spaceBetween,
                                       children: [
-                                        Text("Aula - 05/09/2023", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
+                                        Text(
+                                          "Aula - 05/09/2023",
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: 15),
+                                        ),
                                         Text(
                                           "4/4",
                                           style: TextStyle(
-                                              color: Color.fromARGB(255, 10, 219, 17),
-                                              fontWeight: FontWeight.w900,fontSize: 16),
+                                              color: Color.fromARGB(
+                                                  255, 10, 219, 17),
+                                              fontWeight: FontWeight.w900,
+                                              fontSize: 16),
                                         ),
                                       ],
                                     ),
@@ -105,12 +116,18 @@ class _FrequencyPageState extends State<FrequencyPage> {
                                       mainAxisAlignment:
                                           MainAxisAlignment.spaceBetween,
                                       children: [
-                                        Text("Aula - 12/09/2023", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
+                                        Text(
+                                          "Aula - 12/09/2023",
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: 15),
+                                        ),
                                         Text(
                                           "3/4",
                                           style: TextStyle(
                                               color: Colors.blue,
-                                              fontWeight: FontWeight.w900,fontSize: 16),
+                                              fontWeight: FontWeight.w900,
+                                              fontSize: 16),
                                         ),
                                       ],
                                     ),
@@ -121,12 +138,18 @@ class _FrequencyPageState extends State<FrequencyPage> {
                                       mainAxisAlignment:
                                           MainAxisAlignment.spaceBetween,
                                       children: [
-                                        Text("Aula - 20/09/2023", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
+                                        Text(
+                                          "Aula - 20/09/2023",
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: 15),
+                                        ),
                                         Text(
                                           "0/4",
                                           style: TextStyle(
                                               color: Colors.red,
-                                              fontWeight: FontWeight.w900,fontSize: 16),
+                                              fontWeight: FontWeight.w900,
+                                              fontSize: 16),
                                         ),
                                       ],
                                     ),
@@ -137,12 +160,18 @@ class _FrequencyPageState extends State<FrequencyPage> {
                                       mainAxisAlignment:
                                           MainAxisAlignment.spaceBetween,
                                       children: [
-                                        Text("Aula - 27/09/2023", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
+                                        Text(
+                                          "Aula - 27/09/2023",
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: 15),
+                                        ),
                                         Text(
                                           "3/4",
                                           style: TextStyle(
                                               color: Colors.blue,
-                                              fontWeight: FontWeight.w900,fontSize: 16),
+                                              fontWeight: FontWeight.w900,
+                                              fontSize: 16),
                                         ),
                                       ],
                                     ),
@@ -153,14 +182,19 @@ class _FrequencyPageState extends State<FrequencyPage> {
                                       mainAxisAlignment:
                                           MainAxisAlignment.spaceBetween,
                                       children: [
-                                        Text("Aula - 06/10/2023", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),),
+                                        Text(
+                                          "Aula - 06/10/2023",
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: 15),
+                                        ),
                                         Text(
                                           "4/4",
                                           style: TextStyle(
-                                              color: Color.fromARGB(255, 10, 219, 17),
+                                              color: Color.fromARGB(
+                                                  255, 10, 219, 17),
                                               fontWeight: FontWeight.w900,
-                                              fontSize: 16
-                                              ),
+                                              fontSize: 16),
                                         ),
                                       ],
                                     ),
@@ -176,23 +210,47 @@ class _FrequencyPageState extends State<FrequencyPage> {
                                     mainAxisAlignment:
                                         MainAxisAlignment.spaceBetween,
                                     children: [
-                                     const Column(
+                                      const Column(
                                         children: [
-                                          Text("Presente", style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 15),),
+                                          Text(
+                                            "Presente",
+                                            style: TextStyle(
+                                                color: Colors.black,
+                                                fontWeight: FontWeight.w900,
+                                                fontSize: 15),
+                                          ),
                                           Chip(
-                                            label: Text("56", style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 15),),
+                                            label: Text(
+                                              "56",
+                                              style: TextStyle(
+                                                  color: Colors.black,
+                                                  fontWeight: FontWeight.w900,
+                                                  fontSize: 15),
+                                            ),
                                             elevation: 5,
                                             backgroundColor: Colors.white,
                                           ),
                                         ],
                                       ),
-                                      VerticalDivider(color: Colors.black, width: 2),
-
+                                      VerticalDivider(
+                                          color: Colors.black, width: 2),
                                       const Column(
                                         children: [
-                                          Text("Ausente", style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 15),),
+                                          Text(
+                                            "Ausente",
+                                            style: TextStyle(
+                                                color: Colors.black,
+                                                fontWeight: FontWeight.w900,
+                                                fontSize: 15),
+                                          ),
                                           Chip(
-                                            label: Text("4", style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 15),),
+                                            label: Text(
+                                              "4",
+                                              style: TextStyle(
+                                                  color: Colors.black,
+                                                  fontWeight: FontWeight.w900,
+                                                  fontSize: 15),
+                                            ),
                                             elevation: 5,
                                             backgroundColor: Colors.white,
                                           ),
@@ -200,9 +258,21 @@ class _FrequencyPageState extends State<FrequencyPage> {
                                       ),
                                       const Column(
                                         children: [
-                                          Text("Total de Aulas", style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 15),),
+                                          Text(
+                                            "Total de Aulas",
+                                            style: TextStyle(
+                                                color: Colors.black,
+                                                fontWeight: FontWeight.w900,
+                                                fontSize: 15),
+                                          ),
                                           Chip(
-                                            label: Text("60", style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 15),),
+                                            label: Text(
+                                              "60",
+                                              style: TextStyle(
+                                                  color: Colors.black,
+                                                  fontWeight: FontWeight.w900,
+                                                  fontSize: 15),
+                                            ),
                                             elevation: 5,
                                             backgroundColor: Colors.white,
                                           ),
@@ -210,16 +280,27 @@ class _FrequencyPageState extends State<FrequencyPage> {
                                       ),
                                       Column(
                                         children: [
-                                          const Text("Frequência", style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 15),),
+                                          const Text(
+                                            "Frequência",
+                                            style: TextStyle(
+                                                color: Colors.black,
+                                                fontWeight: FontWeight.w900,
+                                                fontSize: 15),
+                                          ),
                                           Chip(
-                                            label: const Text("75%", style: TextStyle(color: Colors.black, fontWeight: FontWeight.w900, fontSize: 15),),
+                                            label: const Text(
+                                              "75%",
+                                              style: TextStyle(
+                                                  color: Colors.black,
+                                                  fontWeight: FontWeight.w900,
+                                                  fontSize: 15),
+                                            ),
                                             elevation: 5,
-                                            backgroundColor: Colors.lightGreenAccent.shade400,
+                                            backgroundColor: Colors
+                                                .lightGreenAccent.shade400,
                                           ),
                                         ],
                                       ),
-                                      
-                                      
                                     ],
                                   ),
                                 ),

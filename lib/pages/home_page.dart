@@ -221,7 +221,7 @@ class _HomePageState extends State<HomePage> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 const CircleAvatar(
-                  backgroundImage: AssetImage("assets/images/profile.png"),
+                  backgroundImage: AssetImage("assets/images/perfil-ia.jpeg"),
                   backgroundColor: Colors.white,
                   maxRadius: 50,
                   minRadius: 50,

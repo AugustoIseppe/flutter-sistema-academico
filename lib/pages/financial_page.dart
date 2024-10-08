@@ -49,13 +49,13 @@ class FinancialPageState extends State<FinancialPage> {
         elevation: 5,
         actions: const [
           Padding(
-              padding: EdgeInsets.only(right: 20.0, left: 8),
-              child: CircleAvatar(
-                    backgroundImage: AssetImage("assets/images/profile.png"),
-                    backgroundColor: Colors.white,
-                    maxRadius: 16,
-                  ),
+            padding: EdgeInsets.only(right: 20.0, left: 8),
+            child: CircleAvatar(
+              backgroundImage: AssetImage("assets/images/perfil-ia.jpeg"),
+              backgroundColor: Colors.white,
+              maxRadius: 16,
             ),
+          ),
         ],
       ),
       body: SingleChildScrollView(
@@ -295,9 +295,13 @@ class FinancialPageState extends State<FinancialPage> {
                                                             MainAxisAlignment
                                                                 .spaceBetween,
                                                         children: [
-                                                          Text("Com Desconto",
-                                        style: TextStyle(
-                                            fontWeight: FontWeight.w600),),
+                                                          Text(
+                                                            "Com Desconto",
+                                                            style: TextStyle(
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .w600),
+                                                          ),
                                                           Text(
                                                             "R\$ 149,03",
                                                             style: TextStyle(
@@ -313,9 +317,12 @@ class FinancialPageState extends State<FinancialPage> {
                                                                 .spaceBetween,
                                                         children: [
                                                           Text(
-                                                              "Pontualidade 1º dia",
-                                        style: TextStyle(
-                                            fontWeight: FontWeight.w600),),
+                                                            "Pontualidade 1º dia",
+                                                            style: TextStyle(
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .w600),
+                                                          ),
                                                           Text(
                                                             "R\$ 149,03",
                                                             style: TextStyle(
@@ -330,9 +337,13 @@ class FinancialPageState extends State<FinancialPage> {
                                                             MainAxisAlignment
                                                                 .spaceBetween,
                                                         children: [
-                                                          Text("Multa",
-                                        style: TextStyle(
-                                            fontWeight: FontWeight.w600),),
+                                                          Text(
+                                                            "Multa",
+                                                            style: TextStyle(
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .w600),
+                                                          ),
                                                           Text(
                                                             "R\$ 0,00",
                                                             style: TextStyle(
@@ -347,9 +358,13 @@ class FinancialPageState extends State<FinancialPage> {
                                                             MainAxisAlignment
                                                                 .spaceBetween,
                                                         children: [
-                                                          Text("Juros",
-                                        style: TextStyle(
-                                            fontWeight: FontWeight.w600),),
+                                                          Text(
+                                                            "Juros",
+                                                            style: TextStyle(
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .w600),
+                                                          ),
                                                           Text(
                                                             "R\$ 0,00",
                                                             style: TextStyle(
@@ -364,9 +379,13 @@ class FinancialPageState extends State<FinancialPage> {
                                                             MainAxisAlignment
                                                                 .spaceBetween,
                                                         children: [
-                                                          Text("Valor Pago",
-                                        style: TextStyle(
-                                            fontWeight: FontWeight.w600),),
+                                                          Text(
+                                                            "Valor Pago",
+                                                            style: TextStyle(
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .w600),
+                                                          ),
                                                           Text(
                                                             "R\$ 149,03",
                                                             style: TextStyle(
@@ -382,9 +401,12 @@ class FinancialPageState extends State<FinancialPage> {
                                                                 .spaceBetween,
                                                         children: [
                                                           Text(
-                                                              "Data Vencimento",
-                                        style: TextStyle(
-                                            fontWeight: FontWeight.w600),),
+                                                            "Data Vencimento",
+                                                            style: TextStyle(
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .w600),
+                                                          ),
                                                           Text(
                                                             "R\$ 149,03",
                                                             style: TextStyle(
@@ -400,9 +422,12 @@ class FinancialPageState extends State<FinancialPage> {
                                                                 .spaceBetween,
                                                         children: [
                                                           Text(
-                                                              "Data Pagamento",
-                                        style: TextStyle(
-                                            fontWeight: FontWeight.w600),),
+                                                            "Data Pagamento",
+                                                            style: TextStyle(
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .w600),
+                                                          ),
                                                           Text(
                                                             "R\$ 149,03",
                                                             style: TextStyle(
@@ -417,9 +442,13 @@ class FinancialPageState extends State<FinancialPage> {
                                                             MainAxisAlignment
                                                                 .spaceBetween,
                                                         children: [
-                                                          Text("Situação",
-                                        style: TextStyle(
-                                            fontWeight: FontWeight.w600),),
+                                                          Text(
+                                                            "Situação",
+                                                            style: TextStyle(
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .w600),
+                                                          ),
                                                           Text(
                                                             "Pago",
                                                             style: TextStyle(
@@ -437,14 +466,13 @@ class FinancialPageState extends State<FinancialPage> {
                                                           children: [
                                                             Chip(
                                                                 backgroundColor:
-                                                                    Colors.lightGreenAccent
-                                                                        ,
+                                                                    Colors
+                                                                        .lightGreenAccent,
                                                                 label: Text(
                                                                     "Pago",
-                                                            style: TextStyle(
-                                                                fontWeight:
-                                                                    FontWeight
-                                                                        .w900))),
+                                                                    style: TextStyle(
+                                                                        fontWeight:
+                                                                            FontWeight.w900))),
                                                             SizedBox(
                                                               width: 20,
                                                             ),
@@ -514,11 +542,11 @@ class FinancialPageState extends State<FinancialPage> {
                         Navigator.of(context).pushNamed(AppRoutes.GRADES_PAGE);
                       }),
                   GButton(
-                    icon: Icons.auto_stories_sharp,
-                    onPressed: () {
-                        Navigator.of(context).pushNamed(AppRoutes.MATERIAL_CLASSROOM_PAGE);
-                      }
-                    ),
+                      icon: Icons.auto_stories_sharp,
+                      onPressed: () {
+                        Navigator.of(context)
+                            .pushNamed(AppRoutes.MATERIAL_CLASSROOM_PAGE);
+                      }),
                   GButton(
                     icon: Icons.timeline_outlined,
                     onPressed: () {
