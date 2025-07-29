@@ -2,7 +2,7 @@
 
 # 🎓 Projeto Sistema Acadêmico
 
-Este é um projeto Flutter para um sistema acadêmico simples. Ele utiliza navegação moderna, fontes customizadas, visualização de PDF e outros recursos para oferecer uma boa experiência ao usuário.
+Primeiro projeto Flutter. Projeto feito para estudo/trabalho acadêmicdo da faculdade.
 
 ## 📱 Tecnologias utilizadas
 
