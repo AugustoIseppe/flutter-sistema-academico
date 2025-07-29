@@ -2,7 +2,7 @@
 
 # 🎓 Projeto Sistema Acadêmico
 
-Primeiro projeto Flutter. Projeto feito para estudo/trabalho acadêmicdo da faculdade.
+Primeiro projeto Flutter. Projeto feito para estudo/trabalho acadêmico.
 
 ## 📱 Tecnologias utilizadas
 
