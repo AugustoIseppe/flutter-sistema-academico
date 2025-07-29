@@ -63,7 +63,7 @@ Este projeto é apenas para fins acadêmicos. Sem licença definida.
 
 ---
 
-Feito com 💙 em Flutter
+
 
 
 
