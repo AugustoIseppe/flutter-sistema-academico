@@ -1,0 +1,2 @@
+C:/Users/Augusto/Desktop/Portfolio-Flutter/flutter-sistema-academico/android/app/.cxx/Debug/e1a3l2y6/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/Augusto/Desktop/Portfolio-Flutter/flutter-sistema-academico/android/app/.cxx/Debug/e1a3l2y6/arm64-v8a/CMakeFiles/rebuild_cache.dir
