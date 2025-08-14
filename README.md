@@ -1,5 +1,11 @@
 <img width="808" alt="todas juntas" src="https://github.com/user-attachments/assets/52694937-9765-4fcd-b0ec-80082d6e5eb3">
 
+![Flutter](https://img.shields.io/badge/Flutter-3.5+-blue?logo=flutter&logoColor=white)
+![Google Fonts](https://img.shields.io/badge/Google%20Fonts-Custom%20Typography-blue?logo=googlefonts&logoColor=white)
+![Google Nav Bar](https://img.shields.io/badge/Google%20Nav%20Bar-Navigation-lightblue)
+![Syncfusion PDF Viewer](https://img.shields.io/badge/Syncfusion%20PDF%20Viewer-PDF%20Integration-red)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
 # 🎓 Projeto Sistema Acadêmico
 
 Primeiro projeto Flutter. Projeto feito para estudo/trabalho acadêmico.
